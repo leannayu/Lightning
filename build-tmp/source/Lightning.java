@@ -32,7 +32,7 @@ public void draw()
 	int endX=0; 
 	int endY=0;
 	startX = (int)(Math.random()*width);
-	while (endY < getHeight()){
+	while (endY < height){
 		int randomX = (int)(Math.random()*18-9);
 		endX = startX + randomX;
 		int randomY = (int)(Math.random()*9);
