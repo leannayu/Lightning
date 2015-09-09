@@ -8,8 +8,8 @@ void setup()
 void draw()
 {	
 	//set stroke color
-	int strokeB = (int)(Math.random()*255);
-	stroke(255,255, strokeB); 
+	int strokeY = (int)(Math.random()*255);
+	stroke(255,255, strokeY); 
 	//while loop repeats until endY is off the screen
 	int startX=0;
 	int startY=0; 
@@ -24,7 +24,6 @@ void draw()
 		line (startX, startY, endX, endY);
 		startX = endX;
 		startY = endY;
-		System.out.println(endY);
 	}
 
 }
